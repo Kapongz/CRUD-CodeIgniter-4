@@ -1,0 +1,23 @@
+ERROR - 2022-01-14 07:50:37 --> Column 'gender' cannot be null
+ERROR - 2022-01-14 09:15:09 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-01-14 09:15:09 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\Test\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Test\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Test\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Test\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\Test\app\Controllers\StudentController.php(13): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\Test\system\CodeIgniter.php(824): App\Controllers\StudentController->index()
+#6 C:\xampp\htdocs\Test\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+#7 C:\xampp\htdocs\Test\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Test\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-01-14 09:15:23 --> Column 'gender' cannot be null
+ERROR - 2022-01-14 09:17:13 --> Column 'gender' cannot be null
+ERROR - 2022-01-14 09:17:20 --> Column 'gender' cannot be null
+ERROR - 2022-01-14 09:17:59 --> Column 'gender' cannot be null
+ERROR - 2022-01-14 09:18:02 --> Column 'gender' cannot be null
+ERROR - 2022-01-14 09:21:09 --> Column 'gender' cannot be null

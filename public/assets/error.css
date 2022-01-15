@@ -1,0 +1,13 @@
+body{
+    font-family: "Noto Sans Lao";
+}
+
+.error {
+            display: block;
+            padding-top: 5px;
+            font-size: 14px;
+            color: red;
+        }
+thead {
+    font-size: 18px;
+}
