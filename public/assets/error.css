@@ -1,6 +1,10 @@
 body{
     font-family: "Noto Sans Lao";
 }
+.nav-container{
+    display: flex;
+    
+}
 
 .error {
             display: block;
